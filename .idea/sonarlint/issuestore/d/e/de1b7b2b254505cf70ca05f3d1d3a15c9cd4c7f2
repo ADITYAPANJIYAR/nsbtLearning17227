@@ -1,14 +1,14 @@
 
-n	java:S101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«²¦ßøÿÿÿÿ8¾ÒªÊà1
-X	java:S125"<This block of commented-out lines of code should be removed.(Î‚–é8ÄÒªÊà1
-X	java:S125"<This block of commented-out lines of code should be removed.(•¾ô¯8ÅÒªÊà1
-G	java:S106!"+Replace this use of System.out by a logger.(¡™ùê8ÆÒªÊà1
-L	java:S106$"+Replace this use of System.out by a logger.(˜‘Ôöüÿÿÿÿ8ÆÒªÊà1
-£
-java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÆÒªÊà1
-£
-java:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÇÒªÊà1
-£
-java:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÈÒªÊà1
-£
-java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÉÒªÊà1
+”	java:S101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«²¦ßøÿÿÿÿ8¾ÒªÊà1J$5d2a038a-747a-4daa-9bf8-ec3bdcda9f1c
+~	java:S125"<This block of commented-out lines of code should be removed.(Î‚–é8ÄÒªÊà1J$d1462950-07e3-4705-8e54-b24c12be791a
+~	java:S125"<This block of commented-out lines of code should be removed.(•¾ô¯8ÅÒªÊà1J$21f00c31-dc96-402e-9bbb-2ec984e4852c
+m	java:S106!"+Replace this use of System.out by a logger.(¡™ùê8ÆÒªÊà1J$e1c728d9-d47b-451b-952d-932002bc92f6
+r	java:S106$"+Replace this use of System.out by a logger.(˜‘Ôöüÿÿÿÿ8ÆÒªÊà1J$38391937-4468-4eb6-8927-79addacfc48d
+É
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÆÒªÊà1J$f89fb2f5-0f0c-41d0-bc77-b0ec42c3e614
+É
+java:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÇÒªÊà1J$1cff432e-a170-42df-93bf-209035e51e4f
+É
+java:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÈÒªÊà1J$fca7c4c0-689e-42ae-9a61-296959942a95
+É
+java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦³üëûÿÿÿÿ8ÉÒªÊà1J$f3db4880-05a3-429e-8e39-8047fb7f8862

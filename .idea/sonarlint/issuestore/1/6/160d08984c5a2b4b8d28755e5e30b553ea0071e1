@@ -1,15 +1,16 @@
 
-R
-java:S3740‘"/Provide the parametrized type for this generic.(ÐµµÖþÿÿÿÿ8ˆ‘¡žá1
-u
-java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Èâàþÿÿÿÿ8–‘¡žá1
-»
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Î‡ûýúÿÿÿÿ8—‘¡žá1
-c
-java:S3457V"AFormat specifiers should be used instead of string concatenation.(éÚÝ¼þÿÿÿÿ8›‘¡žá1
-^
-java:S3457`"AFormat specifiers should be used instead of string concatenation.(§ÿšÂ8œ‘¡žá1
-]	java:S125t"<This block of commented-out lines of code should be removed.(ã¶ô¼ÿÿÿÿÿ8ž‘¡žá1
-^	java:S125€"<This block of commented-out lines of code should be removed.(ö­žùÿÿÿÿ8Ÿ‘¡žá1
+x
+java:S3740†"/Provide the parametrized type for this generic.(ÐµµÖþÿÿÿÿ8ºç×§á1J$88912464-9e45-45ba-a106-831f50cf35aa
 d
-java:S3457Š"AFormat specifiers should be used instead of string concatenation.(ÇÒ»™üÿÿÿÿ8¢º¢žá1
+java:S1170"!Make this final field static too.(“žÇ8ÓÓŒ§á1J$cf66a904-a39b-4bd2-8ae6-e6ccfba6fe4c
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Î‡ûýúÿÿÿÿ8ÓÓŒ§á1J$f94f14c1-8ca7-40bb-8a4b-5e8da159ef17
+‰
+java:S3457V"AFormat specifiers should be used instead of string concatenation.(éÚÝ¼þÿÿÿÿ8×ÓŒ§á1J$25915a58-4058-4701-8a7c-4932f93148cb
+„
+java:S3457`"AFormat specifiers should be used instead of string concatenation.(§ÿšÂ8ØÓŒ§á1J$4bf2ca40-ad5f-4f08-945d-75a01fddc79a
+‰
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ÇÒ»™üÿÿÿÿ8ÙÓŒ§á1J$55d47ca8-bc7b-4252-b1ed-a5b9f0aa0626
+	java:S125ˆ"<This block of commented-out lines of code should be removed.(†ü¼ˆ8Ñç×§á1J$4d5bdc48-6cfb-40a3-8149-21da8bc7b3bc
+…
+java:S1126›"AReplace this if-then-else statement by a single return statement.(´Ø¡•8ÛÓŒ§á1J$3b34ea72-01d0-4ec1-83c5-cae4db5d9452

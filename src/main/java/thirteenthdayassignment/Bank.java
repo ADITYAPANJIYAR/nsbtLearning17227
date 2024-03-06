@@ -18,12 +18,12 @@ public class Bank implements Maker, Operator {
     private LoanProduct[]loanProductsArray;
     private HashSet<Customer> customerArray;
     private int customerCount=0;
-    private int maxCustomer=100;
+    private final int  maxCustomer=100;
     private int maxLoanProduct=100;
     private int loanProductCount=0;
 
     //constructor...
-    private static Bank INSTANCE= new Bank();
+    private static final Bank INSTANCE= new Bank();
     public static Bank getInstance(){
         return INSTANCE;
     }
@@ -78,8 +78,8 @@ public class Bank implements Maker, Operator {
         loanProductsArray[maxLoanProduct-1]=null;
         maxLoanProduct--;
         return true;
-
     }
+
     public void printAllLoanProduct(){
         for (int i = 0; i < loanProductsArray.length; i++) {
             if(loanProductsArray[i] != null) {
@@ -109,15 +109,12 @@ public class Bank implements Maker, Operator {
     public boolean registerCustomer(Customer customer){
         if(customerCount>=maxCustomer || !(customer instanceof Customer) || findCustomer(customer))
             return false;
-        customerArray[customerCount++]=customer;
-        return true;
+        boolean added=customerArray.add(customer);
+        if(added)
+            customerCount++;
+        return added;
     }
     public Customer findCustomer(int customerId){
-//        for (int i = 0; i < customerArray.size(); i++) {
-//            if(customerArray[i].getCustomerId()==customerId)
-//                return customerArray[i];
-//
-//        }
         for(Customer customer:customerArray)
             if(customer.getCustomerId() == customerId)
                 return  customer;
@@ -125,14 +122,6 @@ public class Bank implements Maker, Operator {
     }
 
     public void printAllCustomer(){
-//        for (int i = 0; i < customerArray.length; i++) {
-//            if(customerArray[i] != null) {
-//                log.info("customer id is: "
-//                        + customerArray[i].getCustomerId() +
-//                        " and customer name is: " +
-//                        customerArray[i].getCustomerName());
-//            }
-//        }
         for (Customer customer:customerArray){
             if (customer!=null)
                 log.info("customer id is: "
@@ -143,50 +132,47 @@ public class Bank implements Maker, Operator {
     }
 
     public void printAllCustomer(Comparator comparator) {
-        // Use bubble sort to sort customers based on the provided comparator
-        Customer temp;
-        for (int i = 0; i < customerCount - 1; i++) {
-            for (int j = 0; j < customerCount - i - 1; j++) {
-                if (comparator.compare(customerArray[j], customerArray[j + 1]) > 0) {
-                    temp = customerArray[j];
-                    customerArray[j] = customerArray[j + 1];
-                    customerArray[j + 1] = temp;
-                }
-            }
-        }
-
-        // Print the sorted customers up to 'n' customers
-        for (int i = 0; i < customerCount; i++) {
-            log.info("Customer id is: " + customerArray[i].getCustomerId() + " and customer name is: " + customerArray[i].getCustomerName());
-        }
+//        // Use bubble sort to sort customers based on the provided comparator
+//        List<Customer> sortedCustomers = new ArrayList<>(customerArray);
+//        Customer temp;
+//        for (int i = 0; i < customerCount - 1; i++) {
+//            for (int j = 0; j < customerCount - i - 1; j++) {
+//                if (comparator.compare(customerArray[j], customerArray[j + 1]) > 0) {
+//                    temp = customerArray[j];
+//                    customerArray[j] = customerArray[j + 1];
+//                    customerArray[j + 1] = temp;
+//                }
+//            }
+//        }
+//        // Print the sorted customers up to 'n' customers
+//        for (Customer customer : sortedCustomers) {
+//            log.info("Customer id is: " + customer.getCustomerId() + " and customer name is: " + customer.getCustomerName());
+//        }
     }
 
+
     public boolean findCustomer(Customer customer){
-        for (int i = 0; i < customerArray.length; i++) {
-            if(customerArray[i] != null && customerArray[i].equals(customer))
-                return true;
+        if (customerArray.contains(customer)){
+            return true;
         }
         return false;
     }
     public boolean deleteCustomer(int customerId){
-        int deleteCustomerId=-1;
-        for (int i = 0; i < customerArray.length; i++) {
-            if (customerArray[i].getCustomerId()==customerId){
-                deleteCustomerId=i;
+        Customer customerToRemove=null;
+        for (Customer element: customerArray){
+            if (element.getCustomerId()==customerId){
+                customerToRemove=element;
                 break;
             }
-
         }
-        if (deleteCustomerId==-1)
+        // If customer is not found, return false
+        if(customerToRemove==null)
             return false;
-        else {
-            for (int i = deleteCustomerId; i < customerArray.length-1 ; i++) {
-                customerArray[i]=customerArray[i+1];
-            }
-        }
-        customerArray[maxCustomer-1]=null;
-        maxCustomer--;
-        return true;
+        // Remove the customer from the HashSet
+        boolean removed=customerArray.remove(customerToRemove);
+        if (removed)
+            customerCount--;
+        return removed;
     }
 
 }
