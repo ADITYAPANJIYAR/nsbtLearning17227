@@ -1,0 +1,9 @@
+
+m
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8ñ²ªŞ1
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(ğ¿ÛÍıÿÿÿÿ8ó²ªŞ1
+K
+java:S1068".Remove this unused "assetBased" private field.(µ¥ú½8´¬¿©İ1
+Q
+java:S1068"4Remove this unused "loanSecurityType" private field.(ûá¢8´¬¿©İ1

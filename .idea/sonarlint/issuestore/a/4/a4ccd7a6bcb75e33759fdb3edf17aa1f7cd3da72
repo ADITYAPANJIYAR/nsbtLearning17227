@@ -1,0 +1,11 @@
+
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Öğà#8§Ğ»ĞŞ1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´Ğå¯ÿÿÿÿÿ8§Ğ»ĞŞ1
+a
+java:S2259"?A "NullPointerException" could be thrown; "s" is nullable here.( ïßøÿÿÿÿ8ı±ÁĞŞ1
+G	java:S106"+Replace this use of System.out by a logger.(í±¥8®Ğ»ĞŞ1
+L	java:S106"+Replace this use of System.out by a logger.(ü¹Ú§ıÿÿÿÿ8’†ÁĞŞ1
+L	java:S106"+Replace this use of System.out by a logger.( ïßøÿÿÿÿ8’†ÁĞŞ1
+L	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8²ÁĞŞ1
+G	java:S106"+Replace this use of System.out by a logger.(áàÎÙ8²ÁĞŞ1
+F	java:S106"+Replace this use of System.out by a logger.(¸ø›58üÒÁĞŞ1
