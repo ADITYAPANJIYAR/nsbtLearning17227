@@ -167,3 +167,5 @@ Printing backward using ListIterator interface:
 2024-03-06 23:38:13 INFO customer id is: 102 and customer name is: Alex
 2024-03-06 23:38:13 INFO customer id is: 103 and customer name is: Olivia
 2024-03-06 23:38:13 INFO customer id is: 101 and customer name is: John
+2024-03-11 00:17:49 INFO John
+2024-03-11 00:17:49 INFO Alice
