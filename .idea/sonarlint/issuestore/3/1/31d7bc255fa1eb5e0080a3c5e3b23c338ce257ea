@@ -1,0 +1,17 @@
+
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8åßéëâ1
+L	java:S106"+Replace this use of System.out by a logger.(Ù¿éûÿÿÿÿ8æßéëâ1
+R
+java:S2446"0"notify" may not wake up the appropriate thread.(ã§Ïÿùÿÿÿÿ8æßéëâ1
+r
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(ã§Ïÿùÿÿÿÿ8çßéëâ1
+]	java:S125	"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ØÛ‡ìâ1
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8èßéëâ1
+G	java:S106"+Replace this use of System.out by a logger.(¿ÅÙ•8éßéëâ1
+R
+java:S2446"0"notify" may not wake up the appropriate thread.(ã§Ïÿùÿÿÿÿ8éßéëâ1
+r
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(ã§Ïÿùÿÿÿÿ8éßéëâ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÚÛ‡ìâ1
