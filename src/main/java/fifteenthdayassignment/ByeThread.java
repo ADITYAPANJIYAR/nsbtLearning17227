@@ -9,11 +9,11 @@ public class ByeThread extends Thread{
     Thread thread=new Thread();
     @Override
     public void run(){
-//        try {
-//            sleep(2000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         log.info("Bye");
     }
 }

@@ -8,11 +8,11 @@ public class HelloThread extends Thread{
     Thread thread=new Thread();
     @Override
     public void run(){
-//        try {
-//            sleep(1000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         log.info("Hello world");
     }
 }

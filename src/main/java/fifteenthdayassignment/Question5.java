@@ -1,34 +1,26 @@
 package fifteenthdayassignment;
 
-class Thread1 extends Thread {
-    public void run() {
-        for (int i = 0; i < 10; i++) {
-            synchronized (this) {
-                System.out.println("Hello");
-                this.notify(); // Notify the other thread
-//                try {
-//                    this.wait(); // Wait for the other thread to notify
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-            }
-        }
-    }
-}
+class HelloByeThread extends Thread {
+    private String message;
+    private Object lock;
 
-class Thread2 extends Thread {
+    public HelloByeThread(String message, Object lock) {
+        this.message = message;
+        this.lock = lock;
+    }
+    @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-            synchronized (this) {
-                System.out.println("Bye");
-                this.notify(); // Notify the other thread
-//                try {
-//                    if (i < 9) {
-//                        this.wait(); // Wait for the other thread to notify
-//                    }
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
+            synchronized(lock) {
+                System.out.println(message);
+                try {
+                    lock.notify(); // Notify the other thread
+                    if (i < 9) {
+                        lock.wait(); // Wait for the other thread to notify
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -36,11 +28,11 @@ class Thread2 extends Thread {
 
 public class Question5 {
     public static void main(String[] args) {
-        Thread1 thread1=new Thread1();
-        Thread2 thread2=new Thread2();
-        thread1.start();
-        thread2.start();
+        Object lock = new Object();
+        HelloByeThread helloThread = new HelloByeThread("Hello", lock);
+        HelloByeThread byeThread = new HelloByeThread("Bye", lock);
+
+        helloThread.start();
+        byeThread.start();
     }
 }
-
-

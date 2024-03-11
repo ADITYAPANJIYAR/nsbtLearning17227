@@ -8,7 +8,7 @@ class Question3Thread extends Thread {
     @Override
     public void run() {
         for (int i = 1; i <= 10; i++) {
-            log.info(Thread.currentThread().getName() + " " + i);
+            log.info(String.format("%s %d", Thread.currentThread().getName(),i));
         }
     }
 }
