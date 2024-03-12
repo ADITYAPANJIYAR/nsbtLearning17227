@@ -1,0 +1,20 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(è—ÇÊÿÿÿÿÿ8í¡Æà1
+v
+java:S1450b"YRemove the "assetsCost" field and declare it as a local variable in the relevant methods.(ªôŒ„8ğ¡Æà1
+w
+java:S1450c"ZRemove the "downPayment" field and declare it as a local variable in the relevant methods.(Í¥Â§8ğ¡Æà1
+}
+java:S1450`"[Remove the "manufacturer" field and declare it as a local variable in the relevant methods.(‹Ùšıÿÿÿÿ8ğ¡Æà1
+‚
+java:S1450a"`Remove the "yearOfManufacture" field and declare it as a local variable in the relevant methods.(§¡–ÿúÿÿÿÿ8ğ¡Æà1
+P
+java:S1068_".Remove this unused "assetModel" private field.(–¿Ğ¤ùÿÿÿÿ8ñ¡Æà1
+R
+java:S1068`"0Remove this unused "manufacturer" private field.(‹Ùšıÿÿÿÿ8ñ¡Æà1
+W
+java:S1068a"5Remove this unused "yearOfManufacture" private field.(§¡–ÿúÿÿÿÿ8ñ¡Æà1
+K
+java:S1068b".Remove this unused "assetsCost" private field.(ªôŒ„8ñ¡Æà1
+L
+java:S1068c"/Remove this unused "downPayment" private field.(Í¥Â§8ò¡Æà1

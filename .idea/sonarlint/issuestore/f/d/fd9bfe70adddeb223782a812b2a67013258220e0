@@ -1,0 +1,16 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8§ÚÎ‘ã1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¶—Ï‘ã1
+g	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å•Ñ‘ã1
+J
+java:S3416"(Update this logger to use "Drive.class".(ùòş“şÿÿÿÿ8öÍ‘ã1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ùòş“şÿÿÿÿ8÷Í‘ã1
+c
+java:S3457	"AFormat specifiers should be used instead of string concatenation.(ÛÖñ•ıÿÿÿÿ8øÍ‘ã1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8°ÚÎ‘ã1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¿—Ï‘ã1
+{
+java:S2142#"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Î•Ñ‘ã1

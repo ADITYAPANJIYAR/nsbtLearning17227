@@ -1,0 +1,10 @@
+
+
+java:S1854"9Remove this useless assignment to local variable "start".(ÎÚÜ‰øÿÿÿÿ8ñØ¶œã1J$ce939aa7-b43d-4ae3-a8c5-a3b0557a529f
+r
+java:S1481"*Remove this unused "start" local variable.(ÎÚÜ‰øÿÿÿÿ8óØ¶œã1J$0bd3f160-92dd-40cf-adb3-2cd738f36f38
+r	java:S106"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8õØ¶œã1J$521f7e1f-dd33-4aac-af32-f1f0438c9edb
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8öØ¶œã1J$7ab961c1-ad80-4587-a7fe-5d79670dbfc0
+r	java:S106("+Replace this use of System.out by a logger.(¡ØÿĞùÿÿÿÿ8÷Ø¶œã1J$e068a39b-a9c0-498c-999f-5a38f903e1bb
+l	java:S106)"+Replace this use of System.out by a logger.(æÅòe8øØ¶œã1J$c883cf15-c7f6-467a-8532-5e86440114c3

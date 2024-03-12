@@ -1,0 +1,20 @@
+
+M
+java:S2160"+Override the "equals" method in this class.(à·ÈÍüÿÿÿÿ8ýºâ”á1
+G	java:S106"+Replace this use of System.out by a logger.(ÖÛšì8çÕ¡Æà1
+w
+java:S1450k"ZRemove the "buildUpArea" field and declare it as a local variable in the relevant methods.(¢èìá8ÿƒ«Æà1
+{
+java:S1450l"YRemove the "carPetArea" field and declare it as a local variable in the relevant methods.(¿€õ÷ýÿÿÿÿ8€„«Æà1
+w
+java:S1450j"ZRemove the "marketValue" field and declare it as a local variable in the relevant methods.(¡½ÂÎ8€„«Æà1
+|
+java:S1450m"ZRemove the "propertyAge" field and declare it as a local variable in the relevant methods.(â­Êšùÿÿÿÿ8€„«Æà1
+L
+java:S1068j"/Remove this unused "marketValue" private field.(¡½ÂÎ8÷Ú¢Æà1
+L
+java:S1068k"/Remove this unused "buildUpArea" private field.(¢èìá8÷Ú¢Æà1
+P
+java:S1068l".Remove this unused "carPetArea" private field.(¿€õ÷ýÿÿÿÿ8÷Ú¢Æà1
+Q
+java:S1068m"/Remove this unused "propertyAge" private field.(â­Êšùÿÿÿÿ8÷Ú¢Æà1

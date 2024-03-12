@@ -1,0 +1,15 @@
+
+R
+java:S3740…"/Provide the parametrized type for this generic.(ĞµµÖşÿÿÿÿ8Ö¯£á1
+u
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Èâàşÿÿÿÿ8”°£á1
+»
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Î‡ûıúÿÿÿÿ8•°£á1
+c
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(éÚİ¼şÿÿÿÿ8ï¦á1
+^
+java:S3457_"AFormat specifiers should be used instead of string concatenation.(§ÿšÂ8ğ¦á1
+c
+java:S3457}"AFormat specifiers should be used instead of string concatenation.(ÇÒ»™üÿÿÿÿ8ò¦á1
+_
+java:S3457”"AFormat specifiers should be used instead of string concatenation.(…úá8ô¦á1

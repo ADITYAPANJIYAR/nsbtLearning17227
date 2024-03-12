@@ -1,0 +1,11 @@
+
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Éë–ÏÞ1
+\
+java:S2259"@A "NullPointerException" could be thrown; "s2" is nullable here.(‘Å·K8Îë–ÏÞ1
+G	java:S106	"+Replace this use of System.out by a logger.(´§ÇŸ8Ðë–ÏÞ1
+L	java:S106"+Replace this use of System.out by a logger.(ò•¼‡þÿÿÿÿ8Ñë–ÏÞ1
+G	java:S106"+Replace this use of System.out by a logger.(«¥èÎ8Òë–ÏÞ1
+F	java:S106"+Replace this use of System.out by a logger.(‘Å·K8Òë–ÏÞ1
+F	java:S106"+Replace this use of System.out by a logger.(£ »8Òë–ÏÞ1
+G	java:S106"+Replace this use of System.out by a logger.(éÅ¬µ8Òë–ÏÞ1

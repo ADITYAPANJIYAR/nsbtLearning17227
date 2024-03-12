@@ -1,0 +1,12 @@
+
+H
+java:S2160"+Override the "equals" method in this class.(™”Î8É…Îá1
+G	java:S106"+Replace this use of System.out by a logger.(ˆŠ£8ıºÂà1
+t
+java:S1450Z"XRemove the "totalFees" field and declare it as a local variable in the relevant methods.(ã´Ş@8ªøşÅà1
+P
+java:S1068X".Remove this unused "courseName" private field.(ŞòÛàûÿÿÿÿ8ˆçêÅà1
+Q
+java:S1068Y"/Remove this unused "collegeName" private field.(èŸ…·üÿÿÿÿ8ˆçêÅà1
+I
+java:S1068Z"-Remove this unused "totalFees" private field.(ã´Ş@8ˆçêÅà1
